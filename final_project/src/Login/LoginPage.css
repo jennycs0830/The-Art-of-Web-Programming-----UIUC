@@ -1,0 +1,302 @@
+.login-in-page-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gray-100);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 90rem;
+    height: 5.06rem;
+  }
+  .map-icon {
+    position: absolute;
+    top: 1.25rem;
+    left: 32.56rem;
+    width: 3rem;
+    height: 3rem;
+  }
+  .login-in-page-item {
+    position: absolute;
+    top: 14.69rem;
+    left: 58.59rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .bus-stop-navigator {
+    position: absolute;
+    top: 1.56rem;
+    left: 6.88rem;
+    font-size: var(--font-size-13xl);
+    font-family: var(--font-inter);
+    color: var(--color-orangered);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 19.88rem;
+    height: 2.13rem;
+  }
+  .user-icon {
+    position: absolute;
+    top: 1.13rem;
+    left: 85.81rem;
+    width: 2.8rem;
+    height: 3rem;
+  }
+  .calendar-icon,
+  .menu-icon {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.88rem;
+    width: 4.31rem;
+    height: 4.31rem;
+  }
+  .calendar-icon {
+    top: 1.25rem;
+    left: 36.94rem;
+    width: 3.09rem;
+    height: 3rem;
+  }
+  .map-icon1,
+  .search-icon,
+  .search-icon1 {
+    position: absolute;
+    top: 1.13rem;
+    left: 28.38rem;
+    width: 3.13rem;
+    height: 3.13rem;
+  }
+  .map-icon1,
+  .search-icon1 {
+    cursor: pointer;
+  }
+  .map-icon1 {
+    top: 1.25rem;
+    left: 32.56rem;
+    width: 3rem;
+    height: 3rem;
+  }
+  .login-in-page-child1 {
+    position: absolute;
+    top: 14.69rem;
+    left: 58.53rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .login {
+    position: absolute;
+    top: 21.19rem;
+    left: 41.31rem;
+    font-size: var(--font-size-29xl);
+    font-family: var(--font-alata);
+    text-align: left;
+  }
+  .login-in-page-child3,
+  .rectangle-div {
+    position: absolute;
+    top: 27.63rem;
+    left: 31.19rem;
+    border-radius: var(--br-9xs);
+    background-color: var(--color-whitesmoke);
+    border: 1px solid var(--color-silver);
+    box-sizing: border-box;
+    width: 27.69rem;
+    height: 4rem;
+  }
+  .login-in-page-child3 {
+    top: 33.94rem;
+  }
+  .login-in-page-child4,
+  .login-in-page-child5 {
+    position: absolute;
+    top: 27.5rem;
+    left: 32.25rem;
+    background-color: var(--color-whitesmoke);
+    width: 7.63rem;
+    height: 0.44rem;
+  }
+  .login-in-page-child5 {
+    top: 33.81rem;
+  }
+  .password,
+  .username,
+  .username-or-email {
+    position: absolute;
+    top: 27.13rem;
+    left: 34.31rem;
+    line-height: 108.1%;
+    font-weight: 600;
+  }
+  .password,
+  .username-or-email {
+    top: 33.44rem;
+    left: 34.44rem;
+  }
+  .username-or-email {
+    top: 29.13rem;
+    left: 32.31rem;
+    color: var(--color-darkgray-100);
+  }
+  .div,
+  .register {
+    position: absolute;
+  }
+  .div {
+    top: 35.69rem;
+    left: 32.25rem;
+    line-height: 108.1%;
+    font-weight: 600;
+    color: var(--color-darkgray-100);
+  }
+  .register {
+    top: 15.44rem;
+    left: 59.31rem;
+    font-size: var(--font-size-base);
+    font-family: var(--font-alata);
+    text-align: left;
+    cursor: pointer;
+  }
+  .arrow-right-icon {
+    position: absolute;
+    top: 15.72rem;
+    left: 63.63rem;
+    width: 1.13rem;
+    height: 1.13rem;
+    overflow: hidden;
+  }
+  .login-in-page-child6,
+  .login-in-page-child7 {
+    position: absolute;
+    top: 45.56rem;
+    left: 30.13rem;
+    background-color: var(--color-dodgerblue);
+    width: 14.38rem;
+    height: 2.75rem;
+  }
+  .login-in-page-child7 {
+    left: 45.44rem;
+    background-color: var(--color-darkslateblue);
+  }
+  .sign-in-with,
+  .sign-in-with1 {
+    position: absolute;
+    top: 46.44rem;
+    left: 34.56rem;
+    line-height: 108.1%;
+    font-weight: 600;
+    color: var(--color-white);
+  }
+  .sign-in-with1 {
+    left: 49.88rem;
+  }
+  .login-in-page-child8,
+  .login-in-page-child9 {
+    position: absolute;
+    top: 45.69rem;
+    left: 30.31rem;
+    background-color: var(--color-white);
+    width: 2.69rem;
+    height: 2.44rem;
+  }
+  .login-in-page-child9 {
+    left: 45.63rem;
+  }
+  .google-g-logo-9-icon {
+    position: absolute;
+    top: 46.13rem;
+    left: 30.75rem;
+    width: 1.63rem;
+    height: 1.63rem;
+    object-fit: cover;
+  }
+  .facebook-2-logo-png-transparen-icon {
+    position: absolute;
+    top: 46rem;
+    left: 46.5rem;
+    width: 0.94rem;
+    height: 1.88rem;
+    object-fit: cover;
+  }
+  .login-in-page-child10 {
+    position: absolute;
+    top: 39.13rem;
+    left: 32rem;
+    background-color: var(--color-whitesmoke);
+    border: 1px solid var(--color-silver);
+    box-sizing: border-box;
+    width: 1rem;
+    height: 1rem;
+  }
+  .forgot-password,
+  .remember-me {
+    position: absolute;
+    top: 39.13rem;
+    left: 33.31rem;
+    line-height: 108.1%;
+    font-weight: 600;
+  }
+  .forgot-password {
+    left: 51.5rem;
+  }
+  .login-in-page-child11 {
+    position: absolute;
+    top: 41.13rem;
+    left: 31.69rem;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-steelblue);
+    width: 27.19rem;
+    height: 2.88rem;
+  }
+  .login1 {
+    position: absolute;
+    top: 42rem;
+    left: 44.06rem;
+    font-size: var(--font-size-base);
+    line-height: 108.1%;
+    font-weight: 600;
+    color: var(--color-white);
+  }
+  .arrow-right-icon8 {
+    position: absolute;
+    top: 15.69rem;
+    left: 25.19rem;
+    width: 1.5rem;
+    height: 1.13rem;
+    overflow: hidden;
+  }
+  .back,
+  .login-in-page-child95 {
+    position: absolute;
+    cursor: pointer;
+  }
+  .login-in-page-child95 {
+    top: 41.13rem;
+    left: 31.69rem;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-steelblue);
+    width: 27.19rem;
+    height: 2.88rem;
+  }
+  .back {
+    top: 15.5rem;
+    left: 26.56rem;
+    font-size: var(--font-size-base);
+    font-family: var(--font-inter);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 4.88rem;
+    height: 1.5rem;
+  }
+  .login-in-page {
+    position: relative;
+    background-color: var(--color-white);
+    width: 90rem;
+    height: 64rem;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+    font-family: var(--font-source-sans-pro);
+  }
+  

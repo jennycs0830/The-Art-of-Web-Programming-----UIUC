@@ -1,0 +1,83 @@
+.pokemon-container{
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.878);
+}
+
+.pokemon-container image{
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    margin-right: 16px;
+}
+
+.pokemon-details{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pokemon-details h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategrey;
+}
+
+/* Overall container styling */
+.SearchBox {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* Input field styling */
+.SearchBox input[type="text"] {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Dropdowns and their container */
+.SearchBox .sortAttr {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.SearchBox .sortAttr select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Pokemon list */
+.SearchBox ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.SearchBox ul li {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 0;
+}
+
+.SearchBox ul li:last-child {
+    border-bottom: none;
+}
+
+.sortAttr label{
+    font-size: 20px;
+    color: #ffffff;
+}

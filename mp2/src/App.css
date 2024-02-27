@@ -1,0 +1,58 @@
+/* Container for navigation */
+.view-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  margin-top: 50px; /* Adjust based on your design requirements */
+  background-color: rgba(255, 255, 255, 0.878);
+}
+
+/* Styling for the navigation links */
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #000000; /* Default link color */
+  font-size: 25px;
+  padding: 5px 15px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  background-color: #ffffffbb  ;
+}
+
+nav a:hover {
+  background-color: #f0f0f0; /* Background color on hover */
+  border: 1px solid #ccc; /* Border color on hover */
+}
+
+/* Active state styling */
+.nav .active {
+  color: #fff;
+  background-color: #007BFF; /* Adjust the color based on your design */
+  border: 1px solid #007BFF; /* Border color for active state */
+}
+
+
+body {
+  background-image: url(assets/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* 這會確保背景圖片固定，內容可以滾動 */
+  
+  /* 調淡背景圖片顏色 */
+  background-blend-mode: luminosity; /* 這會使用背景圖片的亮度 */
+  background-color: rgba(255, 255, 255, 0.5 ); /* 將白色與背景圖片混合，0.5表示50%的不透明度 */
+}
+
+.nav-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* This will vertically align if your nav has a defined height. */
+}
+
+.nav-container > a { /* This targets the NavLinks */
+  margin: 0 10px; 
+}

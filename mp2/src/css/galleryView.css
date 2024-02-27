@@ -1,0 +1,43 @@
+/* galleryView.css */
+
+.pokemon-card {
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    background-color: rgba(255, 255, 255, 0.878);
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+}
+
+.pokemon-card img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.pokemon-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.type-filter {
+    background-color: rgba(255, 255, 255, 0.878); /* Light gray background */
+    padding: 10px 20px; 
+    border: 1px solid #e0e0e0 ; /* Subtle border */
+    margin-bottom: 20px; /* Spacing from other elements below */
+}
+
+.type-filter label {
+    margin: 10px 10px 15px 10px; /* Margin for spacing between labels */
+    font-size: 20px;
+}
+

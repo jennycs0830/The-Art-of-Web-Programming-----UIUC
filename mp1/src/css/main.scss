@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #d4dfad;
+  color: #fff;
+  font: 32px;
+  padding: 50px;
+  text-align: center;
+  margin-top: 55px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.fab.fa-github {
+  font-size: 2em;
+  color:#fff;
+  margin-right: 200 px;
+}
+
+.fab.fa-gitlab {
+  font-size: 2em;
+  color:#fff;
+  margin-right: 200 px;
+}
+
+.fab.fa-facebook-f {
+  font-size: 2em;
+  color:#fff;
+  margin-right: 200 px;
+}
+
+.fab.fa-instagram {
+  font-size: 2em;
+  color:#fff;
+  margin-right: 200 px;
+}
+
+.section {
+  padding: 200px;
+  text-align: center;
+}
+
+.section video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.section:nth-child(even) {
+  background-color: #f4fab5;
+}
+
+.section:nth-child(odd) {
+  background-color: #a5baf2;
+}
+
+.navbar {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  transition: background-color 0.3s;
+  z-index: 10;
+}
+
+.navbar-left {
+  padding-left: 30px;
+}
+
+.navbar-right {
+  margin-right: 30px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.navbar.scrolled {
+  background-color: #000;
+}
+
+.navbar a {
+  color: #eeca82;
+  text-decoration: none;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+
+.navbar a.active {
+  background-color: #57d6a2;
+  padding: 20px;
+}
+
+.carousel-container {
+  position: relative;
+  max-width: 100%;
+  padding: 0px;
+  overflow: hidden;
+  // z-index: -1;
+}
+
+.carousel-slide {
+  display: block;
+  width: 100%;
+  height: 200px;
+  background-color: #49524e;
+  padding: 200px 0;
+  text-align: center;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#prevBtn {
+  left: 50px;
+}
+
+#nextBtn {
+  right: 50px;
+}
+
+.multi-column-section {
+  column-count: 3;
+  column-gap: 20px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+}
+
+.multi-column-content {
+  margin: 10px;
+  padding: 100px;
+  width: 500px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  text-align: center;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fixed-background {
+  background-image: url("/assets/image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ffffff;
+  padding: 300px 0;
+  text-align: center;
+}
+
+.modal-section {
+  text-align: center;
+  position: relative;
+  height: 100px;
+}
+
+#open-modal-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: #a5baf2;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+}
+
+.modal-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.close {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.modal.showing {
+  opacity: 1;
+  animation: fadeIn 0.5s;
+}
+
+.modal.hiding {
+  animation: fadeOut 0.5s;
+}
+
+/* For 1920x1080 and above */
+@media screen and (min-width: 1920px) {
+  /* Styles for large desktop monitors, if needed. */
+}
+
+/* For 1366x768 */
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+  /* Adjust styles to fit better on medium/large screens. 
+    For instance, you might want to adjust padding or font sizes. */
+  .section {
+    padding: 150px;
+  }
+  .multi-column-content {
+    width: 450px;
+  }
+}
+
+/* For 1280x720 */
+@media screen and (min-width: 1280px) and (max-width: 1365px) {
+  .section {
+    padding: 100px;
+  }
+  .multi-column-content {
+    width: 400px;
+  }
+}
+
+/* For 1024x768 */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .section {
+    padding: 80px;
+  }
+  .multi-column-content {
+    width: 300px;
+  }
+}
+
+/* For mobile devices or any screen smaller than 1024px */
+@media screen and (max-width: 1023px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar-left,
+  .navbar-right {
+    padding: 10px;
+  }
+  .multi-column-section {
+    column-count: 1;
+  }
+  .multi-column-content {
+    width: 90%;
+  }
+}

@@ -1,0 +1,89 @@
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -40%);
+    z-index: 1000; /* Ensures the modal is above other content */
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%; /* 70% of screen width */
+    height: 100%;
+    max-width: 600px; /* Maximum width */
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.modal-content img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 20px auto; /* Center the image */
+}
+
+.modal-content h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+.close {
+    display: inline-block;
+    width: 35px;
+    height: 3px;
+    text-align: center;
+    line-height: 24px;
+    cursor: pointer; /* Changes the cursor to a hand when hovering */
+}
+
+.pokemon-image {
+    width: 100%;
+    max-width: 150px;
+    display: block;
+    margin: 20px 0;
+}
+
+.pokemon-name {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.pokemon-stats p {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.navigation-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;;
+}

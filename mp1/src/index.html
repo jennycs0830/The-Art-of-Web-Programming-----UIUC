@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <title> My Profile </title>
+</head>
+
+<body>
+  <header>
+    <h1> Jenny's profile </h1>
+  </header>
+
+  <section class="fixed-background" id="fixed-background">
+    <h2> Background image </h2>
+  </section>
+
+  <section class="modal-section" id="modal-section">
+    <button class="open-modal-btn" id="open-modal-btn"> Open Modal </button>
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <img src="assets/modal.jpeg" alt="flag">
+        <span class="close"> &times; </span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section 1">
+    <video controls autoplay loop>
+      <source src="assets/video.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <section class="section" id="section 2">
+    <h2> Section 2 </h2>
+    <p> This is the content of Section 2. </p>
+  </section>
+
+  <section class="section" id="section 3">
+    <h2> Section 3 </h2>
+    <p> This is the content of Section 3. </p>
+  </section>
+
+  <div class="navbar" id="navbar">
+    <div class="navbar-left">
+      <h3> Profile </h3>
+    </div>
+
+    <div class="navbar-right" id="navbar-right">
+      <a href="#fixed-background"> Background </a>
+      <a href="#modal-section"> Modal </a>
+      <a href="#section 1"> Section 1 </a>
+      <a href="#section 2"> Section 2 </a>
+      <a href="#section 3"> Section 3 </a>
+      <a href="#carousel-container"> Slide </a>
+      <a href="#multi-column-section"> Column </a>
+    </div>
+  </div>
+
+  <section class="carousel-container" id="carousel-container">
+    <div class="carousel-slide" id="carousel-slide1">
+      <!-- Content for Slide 1 -->
+      <h2>Carousel Slide 1</h2>
+      <p>This is the content of Carousel Slide 1.</p>
+    </div>
+
+    <div class="carousel-slide" id="carousel-slide2">
+      <!-- Content for Slide 2 -->
+      <h2>Carousel Slide 2</h2>
+      <p>This is the content of Carousel Slide 2.</p>
+    </div>
+
+    <div class="carousel-slide" id="carousel-slide3">
+      <!-- Content for Slide 3 -->
+      <h2>Carousel Slide 3</h2>
+      <p>This is the content of Carousel Slide 3.</p>
+    </div>
+
+    <button id="prevBtn">&#10094;</button>
+    <button id="nextBtn">&#10095;</button>
+  </section>
+
+  <section class="multi-column-section" id="multi-column-section">
+    <div class="multi-column-content">
+      <h2> Column1 </h2>
+      <p> This is the content of column 1. </p>
+    </div>
+
+    <div class="multi-column-content">
+      <h2> Column2 </h2>
+      <p> This is the content of column 2. </p>
+    </div>
+
+    <div class="multi-column-content">
+      <h2> Column3 </h2>
+      <p> This is the content of column 3. </p>
+    </div>
+  </section>
+
+  <footer>
+    <p> &copy; 2023 My profile </p>
+    <a href="https://github.com/jennycs0830" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://gitlab.com/jennycs0830" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-gitlab"></i>
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=100002575723017" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com/jennysun0830" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </footer>
+</body>
+
+</html>
